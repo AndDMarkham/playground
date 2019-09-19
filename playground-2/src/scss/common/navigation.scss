@@ -1,0 +1,19 @@
+
+
+nav {
+    background-color: #cccccc;
+    padding: 0.5rem;
+
+    a {
+        color: #ffffff;
+        text-decoration: none; 
+        padding: .5rem;
+        font-size: 14px;
+
+        &:hover {
+            color: rgb(180, 12, 12);
+            text-decoration: underline;
+        }
+    }
+    
+}

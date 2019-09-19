@@ -1,1 +1,6 @@
-@import '/css/stylesheets/common.css';
+// common elements
+@import 'common/document.css';
+@import 'common/navigation.css';
+
+// pages
+@import 'pages/homepage.css';
