@@ -133,6 +133,7 @@ main {
     flex-flow: column nowrap;
     align-items: center;
     padding-top: 2rem;
+    border-bottom: 1px solid #333333;
 
     .rating-boxes {
         width: 75%;
@@ -185,4 +186,49 @@ main {
     }
 
 
+}
+
+.cast {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 3rem;
+
+    h2 {
+        text-align: center;
+    }
+
+
+    .cast-descrip { 
+        display: flex;
+        padding: 2rem;
+
+        .description {
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 2rem;
+        }
+    }
+
+    .photos {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+
+        padding-top: 2rem;
+
+        img {
+            width: 100px;
+        }
+
+        .label {
+            font-size: .9rem;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            background-color: #0a0a0a7c;
+            padding: 0.5rem 0rem;
+            position: relative;
+            bottom: 4.3rem;
+        }
+    }
 }
