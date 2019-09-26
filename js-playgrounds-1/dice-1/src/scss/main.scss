@@ -1,0 +1,75 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.875em;
+}
+
+body {
+    margin: 0;
+    padding: 0 2em;
+}
+
+.dice-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5rem;
+    }
+
+    .dice-1 {
+        background-image: url('/img/sides/side1.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .dice-2 {
+        background-image: url('/img/sides/side2.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .dice-3 {
+        background-image: url('/img/sides/side3.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .dice-4 {
+        background-image: url('/img/sides/side4.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .dice-5 {
+        background-image: url('/img/sides/side5.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .dice-6 {
+        background-image: url('/img/sides/side6.png');
+        background-position: center;
+        background-size: cover;
+        height: 50vmin;
+        width: 50vmin;
+    }
+}
+
+
